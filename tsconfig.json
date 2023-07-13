@@ -14,10 +14,21 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "paths": {
-      "@*": ["./src/*"]
-    }
+    "baseUrl": ".",
+    "paths": { "~/*": ["src/*"] },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "jest.setup.js",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": ["node_modules"],
+  "types": ["@types"]
 }

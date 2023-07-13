@@ -1,6 +1,4 @@
-# 서핏 플랫폼 - 클론 코딩
-
-> https://www.surfit.io/
+# Next js 공부
 
 ## 사용해보자
 
@@ -8,7 +6,8 @@
 2. msw
 3. jest
 4. tailwind
-5. react-query and suspend
-6. zustand
-7. tdd 방식
-8. git rebase
+5. react-query and suspense
+6. 아토믹 디자인
+7. zustand
+8. tdd 방식
+9. git rebase
